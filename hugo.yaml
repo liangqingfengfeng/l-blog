@@ -84,3 +84,8 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+
+module:
+  hugoVersion:
+    extended: false
+    min: "0.125.7"
