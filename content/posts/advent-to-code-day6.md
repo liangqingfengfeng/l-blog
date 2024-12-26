@@ -3,7 +3,7 @@ title: "advent to code 第六天"
 date: 2024-12-26T22:25:05+08:00  
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["Advent of Code", "游戏"]
 # author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
