@@ -38,7 +38,7 @@ cover:
 ## 守卫加里凡特
 
 这天的名字叫 Guard Gallivant，要算出守卫在地图中走过的面积，地图如下：
-```js
+```javascript
 ....#.....
 .........#
 ..........
@@ -59,7 +59,7 @@ cover:
 
 当遇到 # 就顺时针旋转 90°，我们可以先定义一个字典来存一下，遇到 # 要转变的下一个方向
 
-```js
+```javascript
 const transformPosMap = {
     'up': 'right',
     'right': 'down',
@@ -107,7 +107,7 @@ const dfs = (i, j, visited, matrix, rows, cols, pos) => {
 
 dfs 函数写出来就简单了，我们先找到入口坐标, 记在变量 oi，oj 上，然后调用 dfs 函数，最后遍历 visited 二维数组里 1 的数量就大功告成啦
 
-```js
+```javascript
 for (let i = 0; i < matrix.length; i++) {
         let find = false;
         for (let j = 0; j < matrix[i].length; j++) {
@@ -136,7 +136,7 @@ for (let i = 0; i < matrix.length; i++) {
 
 不过递归已经写出来了，整体思路示对的，我们把递归改为循环就可以了
 
-```js
+```javascript
     let i = oi;
     let j = oj;
     let pos = 'up';

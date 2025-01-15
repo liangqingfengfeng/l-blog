@@ -57,9 +57,9 @@ params:
   homeInfoParams:
     Title: ""
     Content: >
-      重新思考，活在当下
+      入世则克己复礼，杀身成仁，出世则清心寡欲，黄粱一梦。
 
-      - 一位咸鱼程序员，躺又躺不平，卷又卷不动
+      - 一位咸鱼程序员
 
   socialIcons:
     - name: github
@@ -88,4 +88,6 @@ services:
 module:
   hugoVersion:
     extended: false
-    min: "0.125.7"
+    min: "0.128.0"
+
+staticPath: "assets"
